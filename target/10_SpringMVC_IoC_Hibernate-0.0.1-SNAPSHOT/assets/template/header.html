@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse">
+	<ul class="nav nav-pills">
+		<li role="presentation"><a
+			href="${pageContext.request.contextPath}/ecole/liste">Accueil</a></li>
+		<!-- Les deux fonctions font la meme chose -->
+		<li role="presentation"><a
+			href="<c:url value='/ecole/afficheAdd'/>">Ajouter</a></li>
+		<li role="presentation"><a
+			href="<c:url value='/ecole/afficheUpdate'/>">Modifier</a></li>
+		<li role="presentation"><a
+			href="<c:url value='/ecole/afficheGet'/>">Rechercher</a></li>
+		<li role="presentation"><a
+			href="<c:url value='/ecole/afficheDelete'/>">Supprimer</a></li>
+	</ul>
+</nav>
+
+<div class="row">
+	<div class="col-xs-3 col-md-3">
+		<img src="<c:url value='/assets/images/pleurer2.jpg'/>" alt="test">
+	</div>
+	<div class="col-xs-6 col-md-6">
+		<img src="<c:url value='/assets/images/pleurer2.jpg'/>" alt="test">
+	</div>
+
+</div>
